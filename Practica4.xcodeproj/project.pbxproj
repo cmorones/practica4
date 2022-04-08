@@ -13,6 +13,9 @@
 		21F5028327FEBEC6008E5D9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F5028127FEBEC6008E5D9F /* Main.storyboard */; };
 		21F5028527FEBEC9008E5D9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F5028427FEBEC9008E5D9F /* Assets.xcassets */; };
 		21F5028827FEBEC9008E5D9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F5028627FEBEC9008E5D9F /* LaunchScreen.storyboard */; };
+		21F5029027FEBF97008E5D9F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F5028F27FEBF97008E5D9F /* TableViewController.swift */; };
+		21F5029227FEC04C008E5D9F /* Drinks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21F5029127FEC04B008E5D9F /* Drinks.plist */; };
+		21F5029627FEC13B008E5D9F /* ViewControllerT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F5029527FEC13B008E5D9F /* ViewControllerT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		21F5028427FEBEC9008E5D9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21F5028727FEBEC9008E5D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21F5028927FEBEC9008E5D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F5028F27FEBF97008E5D9F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		21F5029127FEC04B008E5D9F /* Drinks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Drinks.plist; sourceTree = "<group>"; };
+		21F5029527FEC13B008E5D9F /* ViewControllerT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerT.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		21F5027A27FEBEC6008E5D9F /* Practica4 */ = {
 			isa = PBXGroup;
 			children = (
+				21F5029127FEC04B008E5D9F /* Drinks.plist */,
 				21F5027B27FEBEC6008E5D9F /* AppDelegate.swift */,
 				21F5027D27FEBEC6008E5D9F /* SceneDelegate.swift */,
 				21F5027F27FEBEC6008E5D9F /* ViewController.swift */,
@@ -63,6 +70,8 @@
 				21F5028427FEBEC9008E5D9F /* Assets.xcassets */,
 				21F5028627FEBEC9008E5D9F /* LaunchScreen.storyboard */,
 				21F5028927FEBEC9008E5D9F /* Info.plist */,
+				21F5028F27FEBF97008E5D9F /* TableViewController.swift */,
+				21F5029527FEC13B008E5D9F /* ViewControllerT.swift */,
 			);
 			path = Practica4;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21F5028827FEBEC9008E5D9F /* LaunchScreen.storyboard in Resources */,
+				21F5029227FEC04C008E5D9F /* Drinks.plist in Resources */,
 				21F5028527FEBEC9008E5D9F /* Assets.xcassets in Resources */,
 				21F5028327FEBEC6008E5D9F /* Main.storyboard in Resources */,
 			);
@@ -141,6 +151,8 @@
 				21F5028027FEBEC6008E5D9F /* ViewController.swift in Sources */,
 				21F5027C27FEBEC6008E5D9F /* AppDelegate.swift in Sources */,
 				21F5027E27FEBEC6008E5D9F /* SceneDelegate.swift in Sources */,
+				21F5029627FEC13B008E5D9F /* ViewControllerT.swift in Sources */,
+				21F5029027FEBF97008E5D9F /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +302,7 @@
 				DEVELOPMENT_TEAM = D33WB33259;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Practica4/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Practica4;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +331,7 @@
 				DEVELOPMENT_TEAM = D33WB33259;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Practica4/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Practica4;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
